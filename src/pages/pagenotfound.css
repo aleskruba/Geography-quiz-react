@@ -1,0 +1,21 @@
+.pagenotfound{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+}
+.imagediv{
+    margin-top: 10%;
+margin-left: 10%;
+
+}
+.bird{
+    width: 150px;
+    height: 150px;
+}
+
+.text{
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: 80px;
+}

@@ -1,0 +1,53 @@
+.levelpageDOWNWELL{
+    
+    padding: 2rem;
+    background-color: rgb(214, 151, 151);
+    height: 100%;
+    font-family:  sans-serif;
+    margin-top: 20px;
+    
+
+}
+
+.link{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.results{
+    margin-left: 35px;
+    font-size: large;
+}
+
+.LinkToNextLevel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 45px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom right, #A22FCE, #FF7000);
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.thankDiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.thanks{
+    margin-left: 35px;
+    font-family: 'Franklin Gothic Medium';
+    background: linear-gradient(to bottom right, #A22FCE, #FF7000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.picture{
+    margin-right: 300px;
+    width: 150px;
+    height: 150px;
+}

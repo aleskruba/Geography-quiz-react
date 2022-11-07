@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+}
+
+.level{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.circles{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.circlesWrong{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.circlesCorrect{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.moneyList{
+    list-style: none;
+    width: 100%;
+    padding: 40px;
+  
+  }
+
+
+
+   .topbar {
+    width: 80%;
+    height: 50px;
+
+
+}
+
+   .header{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 2px;
+    margin-bottom: 20px;
+
+   }
+
+   .game{
+    
+    margin-top: 50px;
+   }
+
+
+   .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  sans-serif;
+ }
+
+
+
+   .timer{
+    margin-bottom: 30px;
+   }
+
+
+
+   .timerCircleNumber{
+    width: 100px;
+    height: 100px;
+    background-color: lightslategray;
+    color: lightblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    font-size: 35px;
+    animation-name: fontsize;
+    animation: fontsize 1s infinite;
+
+   }
+
+
+
+  .timerCircleNumber1{
+    width: 100px;
+    height: 100px;
+    background-color: lightslategray;
+    color: lightblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    font-size: 35px;
+
+
+   }
+
+
+
+
+  .levelTitle{
+       justify-content: end;
+       text-align: end;     
+    }
+
+
+    .levelNumber{
+        background: linear-gradient(to bottom right, #A22FCE, #FF7000);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family:  'Lucida Sans Regular';
+    }

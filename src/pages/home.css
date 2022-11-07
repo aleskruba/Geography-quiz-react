@@ -1,0 +1,64 @@
+.home{
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: midnightblue;
+
+}
+
+.starttitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    background: linear-gradient(to bottom right, #A22FCE, #FF7000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.title1{
+    justify-content: center;
+     font-size: 28px;
+
+}
+
+
+.image{
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.start-button{
+    position: absolute;
+    margin-left: 45%;
+    justify-content: center;
+    top :140px;
+    width:200px;
+    height: 50px;
+    background: linear-gradient(to bottom right, #A22FCE, #FF7000);
+    line-height: 50px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
